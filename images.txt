@@ -1,6 +1,6 @@
 --platform=linux/arm/v7 xhofe/alist
-
-
+--platform=linux/arm/v7 whyour/qinglong
+--platform=linux/arm/v7 aguslr/cups
 
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
