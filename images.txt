@@ -1,4 +1,4 @@
---platform=linux/armv7 xhofe/alist
+--platform=linux/arm/v7 xhofe/alist
 nginx
 
 
