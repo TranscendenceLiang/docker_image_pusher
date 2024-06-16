@@ -1,4 +1,4 @@
-xhofe/alist --platform=linux/arm32v7
+xhofe/alist --platform=linux/arm/v7
 nginx
 
 
