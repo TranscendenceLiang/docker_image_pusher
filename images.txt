@@ -1,6 +1,13 @@
 --platform=linux/arm/v7 xhofe/alist
 --platform=linux/arm/v7 whyour/qinglong
 --platform=linux/arm/v7 anujdatar/cups
+--platform=linux/arm/v7  b3log/siyuan
+--platform=linux/arm/v7 nginx
+--platform=linux/arm/v7 mysql
+--platform=linux/arm/v7 redis
+--platform=linux/arm/v7 mariadb
+--platform=linux/arm/v7 ghcr.io/paperless-ngx/paperless-ngx
+--platform=linux/arm/v7 xiaoyaliu/alist
 
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
