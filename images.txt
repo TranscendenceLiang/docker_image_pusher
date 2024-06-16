@@ -1,5 +1,4 @@
 --platform=linux/arm/v7 xhofe/alist
-nginx
 
 
 
