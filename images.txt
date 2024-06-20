@@ -5,7 +5,8 @@
 --platform=linux/arm/v7 nginx
 --platform=linux/arm/v7 biarms/mysql
 --platform=linux/arm/v7 hslr/sun-panel
-
+--platform=linux/arm/v7 tailscale/tailscale
+--platform=linux/arm/v7 cloudflare/cloudflared
 
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
