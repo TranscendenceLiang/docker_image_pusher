@@ -7,7 +7,6 @@
 --platform=linux/arm/v7 hslr/sun-panel
 --platform=linux/arm/v7 tailscale/tailscale
 --platform=linux/arm/v7 portainer/portainer
---platform=linux/arm/v7 ghcr.io/cloudflare/cloudflared
 --platform=linux/arm/v7 filebrowser/filebrowser
 
 #支持私库
