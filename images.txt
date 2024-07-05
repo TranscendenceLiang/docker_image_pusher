@@ -1,1 +1,2 @@
 --platform=linux/arm/v7 bestoray/pgyvpn
+--platform=linux/arm/v7 tailscale/tailscale:latest
