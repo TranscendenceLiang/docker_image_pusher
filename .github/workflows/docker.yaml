@@ -113,7 +113,7 @@ jobs:
             else
                 tag_prefix="${mytag//\//_}"
                 sed -i '/^--tag/,/tag--$/d ' images.txt
-                read -r line || [ -n "$new_line" ]; do
+                read -r line || [ -n "$new_line" ]
             fi
             
             
