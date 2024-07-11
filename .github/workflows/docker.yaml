@@ -111,7 +111,8 @@ jobs:
                 tag_prefix=""
                 new_line="${line}"
             else
-                tag_prefix="${mytag//\//_}"
+                temp_tag_prefix="${mytag//\//_}"
+                tag_prefix="${temp_tag_prefix%@*}"
                 new_line="${line##*@}"
             fi
             
