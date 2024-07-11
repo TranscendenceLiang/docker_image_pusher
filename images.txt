@@ -1,3 +1,5 @@
 --platform=linux/arm/v7 bestoray/pgyvpn
 --platform=linux/arm/v7 tailscale/tailscale
-@--tag=linux/arm/v7@ jysky007/cups:v1
+--platform=linux/arm/v7 jysky007/cups:v1
+
+#@--tag=linux/arm/v7@ jysky007/cups:v1
