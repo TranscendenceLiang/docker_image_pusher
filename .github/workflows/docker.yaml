@@ -105,9 +105,19 @@ jobs:
             if echo "$line" | grep -q '^\s*#'; then
                 continue
             fi
-        
+
+            mytag=$(echo "$line" | awk -F'--tag[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
+            if [ -z "$mytag" ]; then
+                tag_prefix=""
+                new_line="${line}"
+            else
+                tag_prefix="${mytag//\//_}"
+                new_line="${line%%--tag*}"
+            fi
+            
+            
             echo "docker pull $line"
-            docker pull $line
+            docker pull $new_line
             platform=$(echo "$line" | awk -F'--platform[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
             echo "platform is $platform"
             # 如果存在架构信息 将架构信息拼到镜像名称前面
@@ -139,12 +149,6 @@ jobs:
             # 将@sha256:等字符删除
             image_name_tag="${image_name_tag%%@*}"
             image_name="${image_name%%@*}"
-            tag=$(echo "$line" | awk -F'--tag[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
-            if [ -z "$tag" ]; then
-                tag_prefix=""
-            else
-                tag_prefix="${tag//\//_}"
-            fi
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$name_space_prefix$image_name:$platform_prefix$tag_prefix"
             echo "docker tag $image $new_image"
             docker tag $image $new_image
