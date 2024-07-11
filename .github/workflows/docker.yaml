@@ -106,13 +106,13 @@ jobs:
                 continue
             fi
 
-            mytag=$(echo "$line" | awk -F'tag[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
+            mytag=$(echo "$line" | awk -F'--tag[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
             if [ -z "$mytag" ]; then
                 tag_prefix=""
                 new_line="${line}"
             else
                 tag_prefix="${mytag//\//_}"
-                new_line="${line##*#}"
+                new_line="${line##*@}"
             fi
             
             
