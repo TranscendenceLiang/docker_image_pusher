@@ -1,15 +1,1 @@
---platform=linux/arm/v7 xhofe/alist
---platform=linux/arm/v7 whyour/qinglong
---platform=linux/arm/v7 anujdatar/cups
---platform=linux/arm/v7 b3log/siyuan
---platform=linux/arm/v7 nginx
---platform=linux/arm/v7 biarms/mysql
---platform=linux/arm/v7 hslr/sun-panel
---platform=linux/arm/v7 tailscale/tailscale
---platform=linux/arm/v7 portainer/portainer
---platform=linux/arm/v7 filebrowser/filebrowser
---platform=linux/arm/v7 moelin/1panel
---platform=linux/arm/v7 wordpress
---platform=linux/arm/v7 kunde21/gitea-arm
---platform=linux/arm/v7 bestoray/pgyvpn
-
+--platform=linux/arm/v7 whyour/qinglong:2.11.3
