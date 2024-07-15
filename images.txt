@@ -1,1 +1,1 @@
---platform=linux/arm/v7 whyour/qinglong:2.11.3
+--platform=linux/arm/v7 whyour/qinglong
