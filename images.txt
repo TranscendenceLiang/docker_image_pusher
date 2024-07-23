@@ -1,1 +1,1 @@
---platform=linux/arm/v7 whyour/qinglong
+--platform=linux/arm/v7 jupyter/minimal-notebook
