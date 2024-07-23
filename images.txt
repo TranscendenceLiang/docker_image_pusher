@@ -1,1 +1,1 @@
---platform=linux/arm/v7 jupyter/minimal-notebook
+--platform=linux/arm/v7 andresvidal/jupyter-armv7l
