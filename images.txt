@@ -14,3 +14,6 @@
 --platform=linux/arm/v7 bestoray/pgyvpn
 --platform=linux/arm/v7 andresvidal/jupyter-armv7l
 --platform=linux/arm/v7 ghcr.io/paperless-ngx/paperless-ngx:1.17.4
+--platform=linux/arm/v7 redis
+--platform=linux/arm/v7 gotenberg
+--platform=linux/arm/v7 tika
