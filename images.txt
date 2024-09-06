@@ -16,3 +16,4 @@
 --platform=linux/arm/v7 ghcr.io/paperless-ngx/paperless-ngx:1.17.4
 --platform=linux/arm/v7 redis
 --platform=linux/arm/v7 debian
+--platform=linux/arm/v7 probezy/cpolar
