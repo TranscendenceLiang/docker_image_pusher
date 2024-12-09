@@ -1,3 +1,4 @@
+--platform=linux/arm/v7 jonnyan404/verysync
 --platform=linux/arm/v7 xhofe/alist
 --platform=linux/arm/v7 whyour/qinglong
 --platform=linux/arm/v7 anujdatar/cups
