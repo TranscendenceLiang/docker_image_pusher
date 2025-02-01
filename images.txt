@@ -1,3 +1,5 @@
+--platform=windows/amd64 justsong/one-api
+--platform=linux/arm/v7 justsong/one-api
 --platform=linux/arm/v7 jonnyan404/verysync
 --platform=linux/arm/v7 xhofe/alist
 --platform=linux/arm/v7 whyour/qinglong
