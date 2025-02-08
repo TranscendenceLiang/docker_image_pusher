@@ -1,3 +1,4 @@
+--platform=linux/arm/v7 registry.cn-hangzhou.aliyuncs.com/gewe/gewe:latest
 --platform=linux/arm/v7 jonnyan404/verysync
 --platform=linux/arm/v7 xhofe/alist
 --platform=linux/arm/v7 whyour/qinglong
