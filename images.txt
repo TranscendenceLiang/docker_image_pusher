@@ -1,3 +1,4 @@
+--platform=linux/arm/v7 lscr.io/linuxserver/msedge:latest
 --platform=linux/amd64 registry.cn-hangzhou.aliyuncs.com/gewe/gewe:latest
 --platform=linux/amd64 registry.cn-chengdu.aliyuncs.com/tu1h/wechotd:alpine
 --platform=linux/arm/v7 jonnyan404/verysync
