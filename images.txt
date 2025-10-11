@@ -4,6 +4,7 @@
 --platform=linux/amd64 registry.cn-chengdu.aliyuncs.com/tu1h/wechotd:alpine
 --platform=linux/arm/v7 jonnyan404/verysync
 #  --platform=linux/arm/v7 xhofe/alist
+--platform=linux/arm/v7 openlistteam/openlist:latest
 --platform=linux/arm/v7 easytier/easytier:latest
 --platform=linux/arm/v7 whyour/qinglong
 --platform=linux/arm/v7 anujdatar/cups
@@ -23,3 +24,7 @@
 --platform=linux/arm/v7 redis
 --platform=linux/arm/v7 debian
 --platform=linux/arm/v7 probezy/cpolar
+
+--platform=linux/amd64 openlistteam/openlist:latest
+--platform=linux/amd64 easytier/easytier:latest
+--platform=linux/amd64 nginx
