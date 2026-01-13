@@ -4,7 +4,7 @@
 #--platform=linux/amd64 registry.cn-chengdu.aliyuncs.com/tu1h/wechotd:alpine
 #--platform=linux/arm/v7 jonnyan404/verysync
 #  --platform=linux/arm/v7 xhofe/alist
-#--platform=linux/arm/v7 openlistteam/openlist:latest
+--platform=linux/arm/v7 openlistteam/openlist:latest
 --platform=linux/arm/v7 easytier/easytier:2.4.3
 #--platform=linux/arm/v7 whyour/qinglong
 #--platform=linux/arm/v7 anujdatar/cups
