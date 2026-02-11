@@ -25,7 +25,7 @@
 #--platform=linux/arm/v7 debian
 #--platform=linux/arm/v7 probezy/cpolar
 
---platform=linux/arm/v7 calciumion/new-api:latest
+--platform=linux/arm/v7 tensorzero/gateway
 --platform=linux/amd64 openlistteam/openlist:latest
 --platform=linux/amd64 easytier/easytier:latest
 --platform=linux/amd64 nginx
