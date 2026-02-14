@@ -25,6 +25,9 @@
 #--platform=linux/arm/v7 debian
 #--platform=linux/arm/v7 probezy/cpolar
 
+--platform=linux/arm/v7 postgres:latest
+--platform=linux/arm/v7 minio/minio:latest
+
 --platform=linux/arm/v7 tensorzero/gateway
 --platform=linux/amd64 openlistteam/openlist:latest
 --platform=linux/amd64 easytier/easytier:latest
