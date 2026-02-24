@@ -1,4 +1,4 @@
---platform=linux/arm/v7 electricsql/electric:latest
+--platform=linux/arm/v7 electricsql/electric:canary
 #  --platform=linux/arm/v7 lscr.io/linuxserver/chromium:latest
 #  --platform=linux/arm/v7 lscr.io/linuxserver/msedge:latest
 #--platform=linux/amd64 registry.cn-hangzhou.aliyuncs.com/gewe/gewe:latest
