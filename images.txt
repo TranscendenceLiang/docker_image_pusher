@@ -1,4 +1,4 @@
---platform=linux/arm/v7 electricsql/electric:canary
+#--platform=linux/arm/v7 electricsql/electric:canary
 #  --platform=linux/arm/v7 lscr.io/linuxserver/chromium:latest
 #  --platform=linux/arm/v7 lscr.io/linuxserver/msedge:latest
 #--platform=linux/amd64 registry.cn-hangzhou.aliyuncs.com/gewe/gewe:latest
@@ -26,6 +26,7 @@
 #--platform=linux/arm/v7 debian
 #--platform=linux/arm/v7 probezy/cpolar
 
+--platform=linux/amd64 nousresearch/hermes-agent
 --platform=linux/arm/v7 postgres:latest
 --platform=linux/arm/v7 minio/minio:latest
 
