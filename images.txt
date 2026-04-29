@@ -3,7 +3,7 @@
 #  --platform=linux/arm/v7 lscr.io/linuxserver/msedge:latest
 #--platform=linux/amd64 registry.cn-hangzhou.aliyuncs.com/gewe/gewe:latest
 #--platform=linux/amd64 registry.cn-chengdu.aliyuncs.com/tu1h/wechotd:alpine
-#--platform=linux/arm/v7 jonnyan404/verysync
+--platform=linux/arm/v7 jonnyan404/verysync
 #  --platform=linux/arm/v7 xhofe/alist
 --platform=linux/arm/v7 openlistteam/openlist:latest
 --platform=linux/arm/v7 easytier/easytier
@@ -15,20 +15,20 @@
 #--platform=linux/arm/v7 hslr/sun-panel
 #--platform=linux/arm/v7 tailscale/tailscale
 #--platform=linux/arm/v7 portainer/portainer
-#--platform=linux/arm/v7 filebrowser/filebrowser
+--platform=linux/arm/v7 filebrowser/filebrowser
 #--platform=linux/arm/v7 moelin/1panel
 #--platform=linux/arm/v7 wordpress
 #--platform=linux/arm/v7 kunde21/gitea-arm
-#--platform=linux/arm/v7 bestoray/pgyvpn
+--platform=linux/arm/v7 bestoray/pgyvpn
 #--platform=linux/arm/v7 andresvidal/jupyter-armv7l
 #--platform=linux/arm/v7 ghcr.io/paperless-ngx/paperless-ngx:1.17.4
-#--platform=linux/arm/v7 redis
-#--platform=linux/arm/v7 debian
-#--platform=linux/arm/v7 probezy/cpolar
+--platform=linux/arm/v7 redis
+--platform=linux/arm/v7 debian
+--platform=linux/arm/v7 probezy/cpolar
 
 --platform=linux/amd64 nousresearch/hermes-agent
 --platform=linux/arm/v7 postgres:latest
---platform=linux/arm/v7 minio/minio:latest
+#--platform=linux/amd64 minio/minio:latest
 
 --platform=linux/arm/v7 tensorzero/gateway
 --platform=linux/amd64 openlistteam/openlist:latest
